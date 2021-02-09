@@ -30,9 +30,8 @@ public class Main {
                if (rand > numb) System.out.println("Ваше число меньше загаданного");
                 summ++;
             }
-            System.out.println("Вы проиграли!");
+
             System.out.println();
-            while (true) {
                 System.out.println("Повторить игру еще раз?");
                 System.out.println("1 - да");
                 System.out.println("2 - нет");
@@ -42,7 +41,7 @@ public class Main {
                 } else System.out.println("Всего хорошего! Надеюсь наша игра Вам понравилась.");
                 break;
 
-            }
+
 
         }}
 
